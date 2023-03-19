@@ -17,9 +17,10 @@ class RepositTest {
         repo.add(book2);
         repo.add(book3);
         repo.add(smartphone);
+        repo.add(smartphone2);
         repo.removeById(1);
         Product[] actual = repo.findAll();
-        Product[] expected = {book2, book3, smartphone };
+        Product[] expected = {book2, book3, smartphone, smartphone2};
         Assertions.assertArrayEquals(expected, actual);
 
     }
@@ -33,6 +34,7 @@ class RepositTest {
         Product[] actual = repo.findAll();
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void shouldRemoveById() {
         repo.add(book1);

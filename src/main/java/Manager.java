@@ -1,15 +1,18 @@
 public class Manager {
     private Reposit reposit;
+
     public Manager(Reposit reposit) {
         this.reposit = reposit;
 
     }
+
     public void add(Product product) {
         reposit.add(product);
     }
+
     public Product[] searchBy(String text) {
         Product[] result = new Product[0]; // тут будем хранить подошедшие запросу продукты
-        for (Product product: reposit.findAll()) {
+        for (Product product : reposit.findAll()) {
             if (matches(product, text)) {
                 // "добавляем в конец" массива result продукт product
                 Product[] tmp = new Product[result.length + 1];

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ManagerTest" time="0.036" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ManagerTest" time="0.038" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.17.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\671D~1\AppData\Local\Temp\surefire11445436427543045381\surefirebooter15980112343967685853.jar C:\Users\Юзер\AppData\Local\Temp\surefire11445436427543045381 2023-03-13T12-57-56_931-jvmRun1 surefire2370892192736074742tmp surefire_05909286714479284111tmp"/>
+    <property name="sun.java.command" value="C:\Users\671D~1\AppData\Local\Temp\surefire16366837869761905827\surefirebooter12509556755289367085.jar C:\Users\Юзер\AppData\Local\Temp\surefire16366837869761905827 2023-03-19T12-27-27_705-jvmRun1 surefire71211953022164463tmp surefire_017602959678984631537tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Netology\Java\13\inheritance13\target\test-classes;D:\Netology\Java\13\inheritance13\target\classes;C:\Users\Юзер\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Юзер\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Юзер\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Юзер\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Юзер\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Юзер\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Юзер\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Юзер\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\671D~1\AppData\Local\Temp\surefire11445436427543045381\surefirebooter15980112343967685853.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\671D~1\AppData\Local\Temp\surefire16366837869761905827\surefirebooter12509556755289367085.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+8"/>
@@ -61,12 +61,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testAdd" classname="ManagerTest" time="0.022"/>
-  <testcase name="shouldAddOneMore" classname="ManagerTest" time="0"/>
+  <testcase name="testSearchWhenProductsMiss" classname="ManagerTest" time="0.023"/>
+  <testcase name="testAdd" classname="ManagerTest" time="0.001"/>
+  <testcase name="shouldAddOneMore" classname="ManagerTest" time="0.001"/>
   <testcase name="shouldFindNameNotExistBook" classname="ManagerTest" time="0.001"/>
+  <testcase name="testSearchWhenFewProducts" classname="ManagerTest" time="0.001"/>
   <testcase name="testSearchWhenProductsFound" classname="ManagerTest" time="0.001"/>
-  <testcase name="shouldFindPhoneManufacturer" classname="ManagerTest" time="0.001"/>
+  <testcase name="shouldFindPhoneManufacturer" classname="ManagerTest" time="0"/>
   <testcase name="shouldSearchByPhoneName" classname="ManagerTest" time="0"/>
-  <testcase name="shouldSearchNameOrAuthor" classname="ManagerTest" time="0"/>
+  <testcase name="shouldSearchNameOrAuthor" classname="ManagerTest" time="0.001"/>
   <testcase name="shouldNotFindAuthor" classname="ManagerTest" time="0.001"/>
 </testsuite>

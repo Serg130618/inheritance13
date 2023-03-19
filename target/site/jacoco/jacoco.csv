@@ -2,5 +2,5 @@ GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_
 inheritance13,default,Book,3,9,0,0,1,3,1,1,1,1
 inheritance13,default,Product,3,18,0,0,1,7,1,3,1,3
 inheritance13,default,Reposit,0,83,0,6,0,17,0,7,0,4
-inheritance13,default,Manager,8,69,1,7,1,16,1,7,0,4
+inheritance13,default,Manager,0,77,0,8,0,17,0,8,0,4
 inheritance13,default,Smartphone,3,9,0,0,1,3,1,1,1,1
